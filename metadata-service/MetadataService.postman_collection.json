@@ -27,11 +27,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://metadata.{{cluster}}/metrics",
+					"raw": "http://{{metadata_service_host}}/metrics",
 					"protocol": "http",
 					"host": [
-						"metadata",
-						"{{cluster}}"
+						"{{metadata_service_host}}"
 					],
 					"path": [
 						"metrics"
