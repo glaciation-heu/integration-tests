@@ -47,7 +47,7 @@
       <configuredLocalRules/>
     </hudson.tasks.Shell>
     <hudson.tasks.Shell>
-      <command>newman run &quot;metadata-service/metadata-service-tests.postman_collection.json&quot; --environment &quot;env/metadata-service.integration.internal.postman_environment.postman_environment.json&quot; --reporters cli,progress,htmlextra</command>
+      <command>newman run &quot;metadata-service/metadata-service-tests.postman_collection.json&quot; --environment &quot;env/metadata-service.integration.internal.postman_environment.json&quot; --reporters cli,progress,htmlextra</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
