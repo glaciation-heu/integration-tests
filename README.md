@@ -7,5 +7,8 @@ You can make Jenkins run the tests on periodic basis.
 2. Install NodeJS plugin (Manage Jenkins -> Plugins)
 3. Configure the plugin (Manage Jenkins -> Tools -> NodeJS installations)
 4. Sign in Jenkins and get a token (Jenkins Admin -> Account -> Security)
-5. Call [restore-job.sh](restore-job.sh) for every test. Use your token.
+5. Call [restore-job.sh](restore-job.sh) for every test. Example:
+    ```
+   ./restore-job.sh trade-off-service-tests admin <token> trade-off-service jenkins.integration
+   ```
 
