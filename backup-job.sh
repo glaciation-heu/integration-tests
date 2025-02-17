@@ -5,7 +5,7 @@ set -o nounset
 
 JOB=${1?"Please specify job id"}
 USER=${2?"Please specify user"}
-TOKEN=${3?"Please specify password"}
+TOKEN=${3?"Please specify token"}
 DESTINATION_FOLDER=${4?"Please specify target folder"}
 JENKINS_HOST=${5?"Please specify environment, e.g jenkins.integration or jenkins.validation"}
 
